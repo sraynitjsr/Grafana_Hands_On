@@ -1,0 +1,1 @@
+curl -X POST -H "Content-Type: application/json" -d '{ "name": "My Prometheus Data Source", "type": "prometheus", "url": "http://prometheus-server:9090", "access": "proxy", "isDefault": true }' http://localhost:3000/api/datasources
